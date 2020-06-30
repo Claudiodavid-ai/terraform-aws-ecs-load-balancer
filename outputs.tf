@@ -13,6 +13,11 @@ output "dns_name" {
   value = aws_elb.service.dns_name
 }
 
+output "arn" {
+  description = "The arn of the created ELB"
+  value = aws_elb.service.arn
+}
+
 output "address" {
   description = "The name of the service DNS record."
   value = "${var.component}-${var.deployment_identifier}.${var.domain_name}"

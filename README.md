@@ -112,7 +112,8 @@ for usage instructions.
 |-----------------------------------------|----------------------------------------------------------------------|
 | name                                    | The name of the created ELB                                          |
 | zone_id                                 | The zone ID of the created ELB                                       |
-| dns_name                                | The DNS name of the created ELB                                      |
+| dns_name                                | The DNS name of the created ELB
+| arn                                     | The arn of the created ELB 
 | address                                 | The name of the service DNS record                                   |
 | security_group_id                       | The ID of the security group associated with the ELB                 |
 | open_to_load_balancer_security_group_id | The ID of the security group allowing access from the ELB            |
